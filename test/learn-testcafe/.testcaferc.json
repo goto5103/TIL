@@ -1,0 +1,12 @@
+{
+  "browsers": ["chrome", "edge"],
+  "src": ["./tests/features/*.ts"],
+  "screenshots": {
+    "path": "./reports/screenshots",
+    "takeOnFails": true
+  },
+  "reporter": {
+    "name": "xunit",
+    "output": "reports/report.xml"
+  }
+}

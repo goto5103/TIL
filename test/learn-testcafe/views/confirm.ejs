@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TestCafeDemoConfirm</title>
+  </head>
+  <body>
+    <h1>TestCafe Demo Page confirm</h1>
+    <p id="message">
+      <span class="display-name"> <%= locals.data.name %> </span>
+      さんは
+      <span class="display-food"> <%= locals.data.food %> </span>
+      が好きなんですね。
+    </p>
+    <a href="<%= locals.data.searchUrl %>" id="searchLink"
+      ><%= locals.data.food %>について検索する。</a
+    >
+  </body>
+</html>
